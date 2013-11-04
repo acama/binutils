@@ -1732,6 +1732,8 @@ elf_shlib_list_options (FILE *file)
   fprintf (file, _("\
   -z norelro                  Don't create RELRO program header\n"));
   fprintf (file, _("\
+  -z nosecondary              Convert secondary symbols to weak symbols\n"));
+  fprintf (file, _("\
   -z stacksize=SIZE           Set size of stack segment\n"));
   fprintf (file, _("\
   -z text                     Treat DT_TEXTREL in shared object as error\n"));
