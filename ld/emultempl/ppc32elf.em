@@ -215,7 +215,7 @@ ppc_finish (void)
 {
   if (params.ppc476_workaround)
     lang_for_each_statement (no_zero_padding);
-  finish_default ();
+  gld${EMULATION_NAME}_finish ();
 }
 
 EOF
